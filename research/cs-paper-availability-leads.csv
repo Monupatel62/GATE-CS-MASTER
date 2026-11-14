@@ -41,5 +41,5 @@ year,cs_paper_status,session_count,paper_pdf_status,official_answer_key_status,p
 2022,PAPER_LISTED_SOURCE_UNVERIFIED,1,UNKNOWN,UNKNOWN,,SRC-015,LEAD_ONLY,GateOverflow lists 2022; verify
 2023,PAPER_LISTED_SOURCE_UNVERIFIED,1,UNKNOWN,UNKNOWN,SRC-012,SRC-015,OFFICIAL_PAGE_LISTED,Official GATE IIT Kanpur page lists CS; capture exact linked PDFs/key
 2024,PAPER_LISTED_SOURCE_UNVERIFIED,2,UNKNOWN,UNKNOWN,SRC-011,SRC-015,OFFICIAL_ARCHIVE_LISTED,Official IISc site has master paper/key archive; verify CS sessions
-2025,2,FOUND,FOUND,SRC-003;SRC-004;SRC-005;SRC-010,SRC-015,PDF_LEVEL_REVIEWED,CS-1/CS-2 PDFs inspected; CS-1 key inspected; CS-2 key URL pending inspection
+2025,2,FOUND,FOUND,SRC-003;SRC-004;SRC-005;SRC-010,SRC-015,PDF_LEVEL_REVIEWED,CS-1/CS-2 PDFs and both official answer keys inspected; each key lists Q1-Q65
 2026,2,FOUND,FOUND,SRC-006;SRC-007;SRC-008;SRC-009,SRC-015,PDF_LEVEL_REVIEWED,CS-1/CS-2 PDFs and both official keys inspected
