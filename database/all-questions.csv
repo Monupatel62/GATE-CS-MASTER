@@ -1,1 +1,1 @@
-question_id,year,paper_code,session,set,section,question_number,subject,topic,subtopic,question_type,marks,original_question_text,official_answer,independent_answer,difficulty,source_pdf,answer_key_source,verification_status
+question_id,year,paper_code,session_label,set_label,section_code,section_name,question_number,subject_name,topic_name,subtopic_name,question_type,marks,original_question_text,official_answer_text,independently_derived_answer,difficulty,verification_status
