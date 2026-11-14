@@ -117,7 +117,7 @@ CREATE TABLE IF NOT EXISTS syllabus_topics (
 CREATE TABLE IF NOT EXISTS question_syllabus_mapping (
   question_id TEXT NOT NULL REFERENCES questions(question_id) ON DELETE CASCADE,
   syllabus_version_id TEXT NOT NULL REFERENCES syllabus_versions(syllabus_version_id),
-  syllabus_topic_id TEXT REFERENCES syllabus_topics(syllabus_topic_id),
+  syllabus_topic_id TEXT NOT NULL REFERENCES syllabus_topics(syllabus_topic_id),
   mapping_status TEXT NOT NULL DEFAULT 'PENDING', rationale TEXT,
   PRIMARY KEY(question_id,syllabus_version_id,syllabus_topic_id)
 );
