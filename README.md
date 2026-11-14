@@ -29,7 +29,7 @@ A source-traceable research database for GATE examination papers and questions f
 - `tests/`: database, extraction and mock-test checks.
 
 ## Current status
-The project is in the source-inventory and schema stage. No full historical corpus is claimed. See `PROJECT_STATUS.md`.
+The project has a generalized schema and a verified 260-row official answer-key pilot. Question text has not yet been manually verified or matched to those keys. The 2026 remote PDF text parse is incomplete. No full historical corpus is claimed. See `PROJECT_STATUS.md` and `research/PILOT_QUESTION_EXTRACTION_AUDIT.md`.
 
 ## Getting started
 
