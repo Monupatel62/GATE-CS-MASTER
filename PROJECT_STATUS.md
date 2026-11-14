@@ -22,7 +22,9 @@
 ## Pilot batch update (2026 CS-1)
 - [x] Retrieved the complete official 2026 CS-1 question-paper PDF through the PDF text parser (46 pages); text extraction is available for review, but visual questions/figures need page-image review.
 - [x] Retrieved the complete official 2026 CS-1 answer-key PDF (2 pages).
-- [x] Added all 65 official answer-key rows to `research/pilot-verified-keys/2026-CS1-answer-key.csv` (Q1–Q65, question type, section, key/range, marks, source URL).
+- [x] Added all 65 official answer-key rows for 2026 CS-1 to `research/pilot-verified-keys/2026-CS1-answer-key.csv`.
+- [x] Added 195 official answer-key rows for 2025 CS-1, 2025 CS-2 and 2026 CS-2 to `research/pilot-verified-keys/2025-CS1-CS2-and-2026-CS2-answer-keys.csv`.
+- [x] Total answer-key records transcribed from official PDFs in this pilot: 260 across four CS sessions (Q1–Q65 each).
 - [ ] Match all 65 question statements to the key and review PDF extraction errors/figures.
 - [ ] Write and independently check detailed solutions and subject/topic tags.
 
@@ -34,7 +36,7 @@
 | Papers discovered | 4 CS session papers and 4 matching keys directly inspected; all-code inventory partial |
 | Papers downloaded and hashed | 0 local files confirmed; 2026 CS-1 PDF parsed remotely; local hash manifest pending |
 | Questions extracted | 0 fully verified question-text batches; 2026 CS-1 PDF text parsed for pilot review |
-| Questions verified | 65 official CS-1 answer-key rows transcribed; question-text-to-key matching pending |
+| Questions verified | 260 official answer-key rows transcribed across 4 sessions; question-text-to-key matching pending |
 | Solutions completed | 0 |
 | Missing papers documented | Preliminary only |
 | Errors remaining | Not yet measured |
