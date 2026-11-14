@@ -2,7 +2,7 @@
 
 **Scope:** All GATE paper codes, 1983–2026.  
 **Pilot:** CS-1 and CS-2 sessions for 2025 and 2026.  
-**Stage:** Official pilot answer-key audit complete; question extraction and question-to-key matching remain pending.
+**Stage:** Official pilot answer-key audit complete; remote question-PDF extraction coverage audited; local extraction and question-to-key matching remain pending.
 
 ## Repository
 - Repository: Monupatel62/GATE-CS-MASTER
@@ -26,6 +26,7 @@
 - [x] Compared all 260 CSV records against the corresponding official answer-key PDF rows: question number, session, type, section, answer/key range and marks.
 - [x] Corrected 19 incorrect answer values found in the 2026 CS-2 transcription; standardized its NAT values to the official PDF's printed ranges.
 - [x] Repeated the full comparison after correction: 260 official rows checked, 0 remaining field mismatches.
+- [x] Run a remote PDF-to-Markdown extraction coverage audit for all four pilot papers; publish metadata-only report.
 - [ ] Match the 260 key rows to the question text from the corresponding official question papers.
 - [ ] Review question-paper extraction errors, diagrams, tables and page layout manually.
 - [ ] Write and independently check detailed solutions and subject/topic tags.
@@ -39,7 +40,7 @@
 | Paper codes discovered | 30 official 2026 codes + RA listed for 2027 + IT historical lead (unverified) |
 | Papers discovered | 4 CS session papers and 4 matching official keys directly inspected |
 | Papers downloaded and hashed | 0 local files confirmed; remote PDF parsing only; local SHA-256 manifest pending |
-| Questions extracted | 0 reviewed question-text batches; PDF text is available remotely for pilot review |
+| Questions extracted | 0 reviewed question-text batches; remote parser detected 65/65 labels in 2025 CS-1, 65/65 in 2025 CS-2, 53/65 in 2026 CS-1 and 49/65 in 2026 CS-2; this is label coverage only |
 | Answer-key rows verified | 260 / 260 against official PDFs; 0 remaining field mismatches |
 | Question text matched to keys | 0 |
 | Solutions completed | 0 |
@@ -56,7 +57,9 @@
 - [x] Reference seeding and CSV/JSONL export scripts.
 - [x] Paper-code folders, report templates and schema tests added.
 - [x] Automated tests added for the four pilot answer-key CSVs.
-- [ ] Confirm the new answer-key tests and database checks pass in GitHub Actions.
+- [x] Added a reusable local JSONL candidate-coverage audit script and tests.
+- [x] Added a metadata-only remote extraction coverage report; no question text copied into the report.
+- [ ] Confirm the latest answer-key, candidate-audit and database tests pass in GitHub Actions.
 - [ ] Local permitted PDF downloads and SHA-256 manifest.
 
 ## Next steps
