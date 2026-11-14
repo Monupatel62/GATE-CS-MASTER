@@ -17,17 +17,17 @@
 - GATE 2026 official test-paper page lists 30 papers.
 - GATE 2026 official pattern page documents MCQ, MSQ, NAT and current marking rules.
 - GATE 2027 official pages state that syllabi have been revised and include RA in the two-paper combinations.
-- Prior pilot research inspected GATE 2026 CS-1/CS-2 papers and keys, plus 2025 CS-1/CS-2 paper PDFs; 2025 CS-2 key still needs direct inspection.
+- Direct PDF text inspection now covers GATE 2025 CS-1/CS-2 papers and both official keys, plus GATE 2026 CS-1/CS-2 papers and both official keys. Each 2025 and 2026 answer-key PDF has 65 question rows. Local PDF download, SHA-256 manifest and question-level extraction remain pending.
 
 ## Progress tracker
 | Work item | Status |
 |---|---|
 | Years researched | 0 complete; 1983–2026 inventory initialized |
 | Paper codes discovered | 30 official 2026 codes + RA listed for 2027 |
-| Papers discovered | Partial; official archive range known |
-| Papers downloaded and hashed | Pilot partial; no complete manifest |
-| Questions extracted | 0 complete batches |
-| Questions verified | 0 complete batches |
+| Papers discovered | 4 CS session papers and 4 matching keys directly inspected; all-code inventory partial |
+| Papers downloaded and hashed | 0 local files confirmed; web PDF content inspected; local hash manifest pending |
+| Questions extracted | 0 verified batches; extraction tooling scaffolded |
+| Questions verified | 0 question-text verification batches |
 | Solutions completed | 0 |
 | Missing papers documented | Preliminary only |
 | Errors remaining | Not yet measured |
