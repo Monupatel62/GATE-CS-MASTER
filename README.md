@@ -31,4 +31,26 @@ A source-traceable research database for GATE examination papers and questions f
 ## Current status
 The project is in the source-inventory and schema stage. No full historical corpus is claimed. See `PROJECT_STATUS.md`.
 
+## Getting started
+
+```bash
+python -m venv .venv
+# Windows: .venv\\Scripts\\activate
+# macOS/Linux: source .venv/bin/activate
+pip install -r requirements.txt
+python scripts/init_database.py
+python scripts/validate_database.py
+python scripts/export_database.py
+```
+
+For local PDF inspection:
+```bash
+python scripts/inspect_pdfs.py --directory papers
+python scripts/extract_question_candidates.py papers/CS/example.pdf --paper-id CS-2026-CS1
+```
+
+Candidate extraction is a draft only. Review every record against the original PDF, especially diagrams, tables, equations and page breaks.
+
+Read `research/copyright-and-data-policy.md` before placing source documents or extracted question text in this public repository.
+
 Start with `research/official-sources.md` and `research/source-register.csv`.
