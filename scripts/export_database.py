@@ -14,7 +14,9 @@ FIELDS = [
     "section_code", "section_name", "question_number", "subject_name",
     "topic_name", "subtopic_name", "question_type", "marks",
     "original_question_text", "official_answer_text",
-    "independently_derived_answer", "difficulty", "verification_status",
+    "independently_derived_answer", "difficulty", "source_page_start",
+    "source_page_end", "paper_source_url", "answer_key_source_url",
+    "extraction_confidence", "verification_status",
 ]
 
 
@@ -25,13 +27,17 @@ def rows(conn: sqlite3.Connection):
       sec.section_code, sec.section_name, q.question_number,
       subj.subject_name, t.topic_name, st.subtopic_name, q.question_type,
       q.marks, q.original_question_text, q.official_answer_text,
-      q.independently_derived_answer, q.difficulty, q.verification_status
+      q.independently_derived_answer, q.difficulty, q.source_page_start,
+      q.source_page_end, paper_src.source_url, key_src.source_url,
+      q.extraction_confidence, q.verification_status
     FROM questions q
     JOIN paper_sets p ON p.paper_id = q.paper_id
     JOIN paper_sessions s ON s.session_id = p.session_id
     JOIN exam_paper_offerings o ON o.offering_id = s.offering_id
     JOIN examinations e ON e.year = o.year
     LEFT JOIN paper_sections sec ON sec.section_id = q.section_id
+    LEFT JOIN source_documents paper_src ON paper_src.source_id = p.paper_source_id
+    LEFT JOIN source_documents key_src ON key_src.source_id = p.answer_key_source_id
     LEFT JOIN subjects subj ON subj.subject_id = q.subject_id
     LEFT JOIN topics t ON t.topic_id = q.topic_id
     LEFT JOIN subtopics st ON st.subtopic_id = q.subtopic_id
