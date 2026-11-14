@@ -22,8 +22,8 @@
 ## Progress tracker
 | Work item | Status |
 |---|---|
-| Years researched | 0 complete; 1983–2026 inventory initialized |
-| Paper codes discovered | 30 official 2026 codes + RA listed for 2027 |
+| Years researched | 0 full year inventories complete; official archive pages inspected for 2023–2026 and historical archive coverage leads recorded |
+| Paper codes discovered | 30 official 2026 codes + RA listed for 2027 + IT historical lead (unverified) |
 | Papers discovered | 4 CS session papers and 4 matching keys directly inspected; all-code inventory partial |
 | Papers downloaded and hashed | 0 local files confirmed; web PDF content inspected; local hash manifest pending |
 | Questions extracted | 0 verified batches; extraction tooling scaffolded |
@@ -31,6 +31,14 @@
 | Solutions completed | 0 |
 | Missing papers documented | Preliminary only |
 | Errors remaining | Not yet measured |
+
+## Tooling and repository layout
+- [x] Generalized SQLite schema for all paper codes, sessions, sets and sections.
+- [x] Paper-code/year availability matrix (1983–2026) and separate CS pilot leads.
+- [x] Local PDF manifest and question-candidate extraction scripts.
+- [x] Reference seeding and CSV/JSONL export scripts.
+- [x] Paper-code folders, report templates and schema tests added.
+- [ ] Execute tests in GitHub Actions; no CI result has been recorded yet.
 
 ## Next steps
 1. Enumerate official 2026/2025/2024/2023 paper and answer-key links for all codes.
