@@ -9,8 +9,10 @@ def main() -> None:
     DB_PATH.parent.mkdir(parents=True, exist_ok=True)
     schema = SCHEMA_PATH.read_text(encoding="utf-8")
     with sqlite3.connect(DB_PATH) as conn:
-        conn.executescript(schema)
         conn.execute("PRAGMA foreign_keys = ON")
+        conn.executescript(schema)
+        from seed_reference_data import seed
+        seed(conn)
         integrity = conn.execute("PRAGMA integrity_check").fetchone()[0]
         if integrity != "ok":
             raise RuntimeError(f"SQLite integrity check failed: {integrity}")
