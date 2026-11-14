@@ -51,13 +51,17 @@ class SchemaTests(unittest.TestCase):
             "VALUES('CS26-1-MASTER','CS26-1','MASTER')"
         )
         self.db.execute(
-            "INSERT INTO questions(question_id,paper_id,question_number,original_question_text) "
-            "VALUES('CS26-1-Q1','CS26-1-MASTER','1','sample question')"
+            "INSERT INTO paper_sections(section_id,paper_id,section_code,section_name) "
+            "VALUES('CS26-1-GA','CS26-1-MASTER','GA','General Aptitude')"
+        )
+        self.db.execute(
+            "INSERT INTO questions(question_id,paper_id,section_id,question_number,original_question_text) "
+            "VALUES('CS26-1-Q1','CS26-1-MASTER','CS26-1-GA','1','sample question')"
         )
         with self.assertRaises(sqlite3.IntegrityError):
             self.db.execute(
-                "INSERT INTO questions(question_id,paper_id,question_number,original_question_text) "
-                "VALUES('CS26-1-Q1-DUP','CS26-1-MASTER','1','duplicate number')"
+                "INSERT INTO questions(question_id,paper_id,section_id,question_number,original_question_text) "
+                "VALUES('CS26-1-Q1-DUP','CS26-1-MASTER','CS26-1-GA','1','duplicate number')"
             )
         self.assertEqual(
             self.db.execute("SELECT COUNT(*) FROM questions").fetchone()[0], 1
