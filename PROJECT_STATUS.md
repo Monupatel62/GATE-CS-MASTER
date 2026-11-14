@@ -1,55 +1,44 @@
 # Project Status
 
-**Stage:** Source-backed research foundation initialized.  
-**Question corpus:** No question records extracted or verified yet.
+**Scope:** All GATE paper codes, 1983–2026.  
+**Pilot:** CS/IT.  
+**Stage:** Official source inventory and generalized database schema.  
+**Question corpus:** No complete historical question corpus has been extracted.
 
 ## Repository
 - Repository: `Monupatel62/GATE-CS-MASTER`
 - Default branch: `main`
-- Research branch: `research/foundation`
-- No research branch changes have been merged into main.
+- Active research branch: `research/foundation`
+- Research changes have not been merged into main.
 
-## Inspected findings (2026-11-14)
-- IIT Guwahati's official 2026 master-paper/key page lists CS-1 (Forenoon) and CS-2 (Afternoon).
-- The 2026 official downloads page advertises bulk papers for 2007–2025 and year-wise papers for 2021–2025.
-- IIT Roorkee's official 2025 page provides master paper/key listings and explains key ordering and question-type rules.
-- IIT Kanpur's official 2023 papers/keys page lists CS.
-- PreviousYearPapers.in lists CS PDFs 1991–2015 and two 2016 session files (third-party lead).
-- GATE Overflow lists historical CSE materials from 1987 onward and labels some older IT items separately (community lead).
-- NPTEL has a paper mapping page for further discovery.
+## Verified source facts
+- IISc's official GATE 2024 archive states that the first GATE examination was in 1983.
+- IIT Guwahati's official GATE 2026 downloads page advertises bulk question papers for 2007–2025 and year-wise downloads for 2021–2025.
+- GATE 2026 official test-paper page lists 30 papers.
+- GATE 2026 official pattern page documents MCQ, MSQ, NAT and current marking rules.
+- GATE 2027 official pages state that syllabi have been revised and include RA in the two-paper combinations.
+- Prior pilot research inspected GATE 2026 CS-1/CS-2 papers and keys, plus 2025 CS-1/CS-2 paper PDFs; 2025 CS-2 key still needs direct inspection.
 
-See `research/INITIAL_FINDINGS.md` and `research/source-register.csv`.
+## Progress tracker
+| Work item | Status |
+|---|---|
+| Years researched | 0 complete; 1983–2026 inventory initialized |
+| Paper codes discovered | 30 official 2026 codes + RA listed for 2027 |
+| Papers discovered | Partial; official archive range known |
+| Papers downloaded and hashed | Pilot partial; no complete manifest |
+| Questions extracted | 0 complete batches |
+| Questions verified | 0 complete batches |
+| Solutions completed | 0 |
+| Missing papers documented | Preliminary only |
+| Errors remaining | Not yet measured |
 
-## Completed
-- [x] Repository and write access checked.
-- [x] README and research method created.
-- [x] SQLite schema and subject taxonomy created.
-- [x] Year inventory initialized conservatively.
-- [x] Official pages for 2023, 2025 and 2026 inspected.
-- [x] Historical discovery indexes inspected.
+## Next steps
+1. Enumerate official 2026/2025/2024/2023 paper and answer-key links for all codes.
+2. Complete CS/IT pilot year/session PDF and key inventory.
+3. Validate extraction and database workflow on pilot papers.
+4. Extend to all paper codes.
+5. Research introduction/retirement years using official year-specific brochures.
+6. Build historical pattern and syllabus timelines.
+7. Generate CSV/JSONL/SQLite only from source-verified records.
 
-## Pending
-- [ ] Extract direct official PDF/key links from every archive.
-- [ ] Enumerate every CS year/session/set.
-- [ ] Inspect historical original PDFs (especially 1987–2006 leads).
-- [ ] Establish earliest actual CS-paper year with evidence.
-- [ ] Resolve legacy CS vs IT labels.
-- [ ] Download permitted originals and record SHA-256/page counts.
-- [ ] Extract questions and check against PDF pages.
-- [ ] Verify official key versions and solutions.
-- [ ] Map historical syllabus versions.
-- [ ] Populate SQLite and produce matching CSV/JSONL exports.
-- [ ] Run provenance, integrity, duplicate and completeness tests.
-
-## Status vocabulary
-- NOT_ESTABLISHED
-- PAPER_CONDUCTED_EVIDENCE_FOUND
-- PAPER_NOT_CONDUCTED_EVIDENCE_FOUND
-- PAPER_LISTED_SOURCE_UNVERIFIED
-- ORIGINAL_PDF_VERIFIED
-- EXTRACTED_PENDING_REVIEW
-- QUESTION_TEXT_VERIFIED
-- OFFICIAL_KEY_VERIFIED
-- INDEPENDENT_SOLUTION_CHECKED
-
-No year/session or question count is claimed complete without evidence.
+A paper is not verified because an index lists it. A question is not verified until its text is checked against the original paper. An official answer is not verified until matched to the official key for the same paper/session/version.
