@@ -48,7 +48,7 @@ def seed(conn: sqlite3.Connection) -> None:
         )
 
         start = first_year if first_year is not None else 1983
-        end = last_year if last_year is not None else 2026
+        end = last_year if last_year is not None else (2027 if first_year and first_year > 2026 else 2026)
         for year in range(max(1983, start), min(2027, end + 1)):
             conn.execute(
                 """INSERT OR IGNORE INTO exam_paper_offerings
