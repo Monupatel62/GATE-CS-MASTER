@@ -58,9 +58,10 @@
 - [x] Paper-code folders, report templates and schema tests added.
 - [x] Automated tests added for the four pilot answer-key CSVs.
 - [x] Added a reusable local JSONL candidate-coverage audit script and tests.
+- [x] Added an official-host-only downloader for the four pilot question PDFs and four answer-key PDFs; it verifies the PDF signature and writes SHA-256/page-count metadata.
 - [x] Added a metadata-only remote extraction coverage report; no question text copied into the report.
 - [ ] Confirm the latest answer-key, candidate-audit and database tests pass in GitHub Actions.
-- [ ] Local permitted PDF downloads and SHA-256 manifest.
+- [ ] Run the new downloader locally; no PDFs or local SHA-256 manifest have been produced yet.
 
 ## Next steps
 1. Download permitted pilot source PDFs locally and create the SHA-256 manifest.
