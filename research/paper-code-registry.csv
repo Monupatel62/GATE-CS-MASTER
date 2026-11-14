@@ -1,0 +1,33 @@
+paper_code,paper_name,listed_in_2026,listed_in_2027,first_official_listing_year,last_official_listing_year,introduction_status,notes
+AE,Aerospace Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+AG,Agricultural Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+AR,Architecture and Planning,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+BM,Biomedical Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+BT,Biotechnology,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+CE,Civil Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+CH,Chemical Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+CS,Computer Science and Information Technology,YES,YES,,,UNVERIFIED,Historical CS/IT naming and continuity need separate research
+CY,Chemistry,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+DA,Data Science and Artificial Intelligence,YES,YES,,,UNVERIFIED,First offered year to be confirmed from official sources
+EC,Electronics and Communication Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+EE,Electrical Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+ES,Environmental Science and Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+EY,Ecology and Evolution,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+GE,Geomatics Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+GG,Geology and Geophysics,YES,YES,,,UNVERIFIED,Sub-paper options/sections require year-specific capture
+IN,Instrumentation Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+MA,Mathematics,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+ME,Mechanical Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+MN,Mining Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+MT,Metallurgical Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+NM,Naval Architecture and Marine Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+PE,Petroleum Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+PH,Physics,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+PI,Production and Industrial Engineering,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+ST,Statistics,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+TF,Textile Engineering and Fibre Science,YES,YES,,,UNVERIFIED,Historical start/end year to be researched
+XE,Engineering Sciences,YES,YES,,,UNVERIFIED,Optional section selections vary by year
+XH,Humanities and Social Sciences,YES,YES,,,UNVERIFIED,Optional section selections vary by year
+XL,Life Sciences,YES,YES,,,UNVERIFIED,Optional section selections vary by year
+RA,Robotics and Artificial Intelligence,NO,YES,2027,,OFFICIAL_2027_LISTING,Listed on official GATE 2027 site; outside 1983-2026 historical corpus
+IT,Information Technology,NO,NO,,,THIRD_PARTY_HISTORICAL_LEAD,Separate historical IT-labelled papers appear in community indexes; official historical status and exact years must be verified before inclusion as a confirmed offering

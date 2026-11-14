@@ -1,0 +1,24 @@
+name: Validate research database
+
+on:
+  push:
+    branches: [main, research/foundation]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      - name: Validate SQLite schema and constraints
+        run: python -m unittest discover -s tests -v
+      - name: Initialize database
+        run: python scripts/init_database.py
+      - name: Validate initialized database
+        run: python scripts/validate_database.py
