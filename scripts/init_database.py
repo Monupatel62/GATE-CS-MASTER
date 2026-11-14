@@ -2,7 +2,7 @@ from pathlib import Path
 import sqlite3
 
 ROOT = Path(__file__).resolve().parents[1]
-DB_PATH = ROOT / "database" / "gate_cs.sqlite"
+DB_PATH = ROOT / "database" / "questions.sqlite"
 SCHEMA_PATH = ROOT / "database" / "schema.sql"
 
 def main() -> None:
