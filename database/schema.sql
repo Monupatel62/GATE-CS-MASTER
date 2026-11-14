@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS concepts (
 );
 CREATE TABLE IF NOT EXISTS questions (
   question_id TEXT PRIMARY KEY, paper_id TEXT NOT NULL REFERENCES paper_sets(paper_id),
-  section_id TEXT REFERENCES paper_sections(section_id), question_number TEXT NOT NULL,
+  section_id TEXT NOT NULL REFERENCES paper_sections(section_id), question_number TEXT NOT NULL,
   question_group TEXT, source_page_start INTEGER, source_page_end INTEGER,
   original_question_text TEXT NOT NULL, normalized_question_text TEXT,
   question_type TEXT NOT NULL DEFAULT 'UNKNOWN' CHECK(question_type IN ('MCQ','MSQ','NAT','OTHER','UNKNOWN')),
@@ -76,7 +76,7 @@ CREATE TABLE IF NOT EXISTS questions (
   subtopic_id INTEGER REFERENCES subtopics(subtopic_id), concept_id INTEGER REFERENCES concepts(concept_id),
   difficulty TEXT NOT NULL DEFAULT 'UNASSESSED' CHECK(difficulty IN ('EASY','MEDIUM','HARD','UNASSESSED')),
   extraction_method TEXT, extraction_confidence REAL, verification_status TEXT NOT NULL DEFAULT 'PENDING',
-  verified_by TEXT, verified_at TEXT, UNIQUE(paper_id,question_number)
+  verified_by TEXT, verified_at TEXT, UNIQUE(paper_id,section_id,question_number)
 );
 CREATE TABLE IF NOT EXISTS question_options (
   option_id INTEGER PRIMARY KEY, question_id TEXT NOT NULL REFERENCES questions(question_id) ON DELETE CASCADE,
@@ -91,10 +91,10 @@ CREATE TABLE IF NOT EXISTS question_assets (
 );
 CREATE TABLE IF NOT EXISTS answer_key_items (
   key_item_id TEXT PRIMARY KEY, paper_id TEXT NOT NULL REFERENCES paper_sets(paper_id),
-  question_number TEXT NOT NULL, answer_value TEXT, answer_range_min REAL, answer_range_max REAL,
+  section_id TEXT NOT NULL REFERENCES paper_sections(section_id), question_number TEXT NOT NULL, answer_value TEXT, answer_range_min REAL, answer_range_max REAL,
   disposition TEXT, key_version TEXT NOT NULL DEFAULT 'UNKNOWN',
   source_id TEXT REFERENCES source_documents(source_id), verification_status TEXT NOT NULL DEFAULT 'PENDING',
-  UNIQUE(paper_id,question_number,key_version)
+  UNIQUE(paper_id,section_id,question_number,key_version)
 );
 CREATE TABLE IF NOT EXISTS solutions (
   solution_id TEXT PRIMARY KEY, question_id TEXT NOT NULL REFERENCES questions(question_id) ON DELETE CASCADE,
