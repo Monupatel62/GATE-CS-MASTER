@@ -3,7 +3,7 @@ import sqlite3
 import sys
 
 ROOT = Path(__file__).resolve().parents[1]
-DB_PATH = ROOT / "database" / "gate_cs.sqlite"
+DB_PATH = ROOT / "database" / "questions.sqlite"
 
 def main() -> int:
     if not DB_PATH.exists():
