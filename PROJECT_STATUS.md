@@ -1,44 +1,55 @@
 # Project Status
 
-**Stage:** Research foundation initialized.  
-**Data status:** No question records have yet been extracted or verified.
+**Stage:** Source-backed research foundation initialized.  
+**Question corpus:** No question records extracted or verified yet.
 
-## Confirmed repository state
+## Repository
 - Repository: `Monupatel62/GATE-CS-MASTER`
 - Default branch: `main`
-- Research work is being organized separately from `main`.
+- Research branch: `research/foundation`
+- No research branch changes have been merged into main.
 
-## Research principles
-1. First establish when GATE CS was actually offered; do not assume the CS paper existed in every year beginning in 1983.
-2. Inventory every paper/session/set separately.
-3. For each paper, record original question-paper source, answer-key source, local file checksum, page count, source type, and verification status.
-4. Use official GATE/IIT/IISc sources as primary evidence.
-5. Use third-party archives only to discover leads unless their files can be corroborated.
-6. Never claim completeness based only on an index or a third-party page listing.
-7. Extract in batches; review the source PDF alongside extracted text.
-8. Publish only records with clear provenance and confidence/status fields.
+## Inspected findings (2026-11-14)
+- IIT Guwahati's official 2026 master-paper/key page lists CS-1 (Forenoon) and CS-2 (Afternoon).
+- The 2026 official downloads page advertises bulk papers for 2007–2025 and year-wise papers for 2021–2025.
+- IIT Roorkee's official 2025 page provides master paper/key listings and explains key ordering and question-type rules.
+- IIT Kanpur's official 2023 papers/keys page lists CS.
+- PreviousYearPapers.in lists CS PDFs 1991–2015 and two 2016 session files (third-party lead).
+- GATE Overflow lists historical CSE materials from 1987 onward and labels some older IT items separately (community lead).
+- NPTEL has a paper mapping page for further discovery.
 
-## Work completed
-- [x] Repository existence, visibility, default branch, and access checked.
-- [x] Initial README created.
-- [ ] Historical GATE CS year-by-year inventory.
-- [ ] Session/set enumeration.
-- [ ] Official PDF and answer-key retrieval.
-- [ ] Historical syllabus version inventory.
-- [ ] Question extraction and source-page verification.
-- [ ] Answer-key verification.
-- [ ] Detailed solutions.
-- [ ] SQLite population and export parity checks.
+See `research/INITIAL_FINDINGS.md` and `research/source-register.csv`.
 
-## Critical status definitions
-- `NOT_ESTABLISHED`: no conclusion about whether the CS paper existed.
-- `PAPER_CONDUCTED_EVIDENCE_FOUND`: evidence supports that a CS paper was conducted.
-- `PAPER_NOT_CONDUCTED_EVIDENCE_FOUND`: evidence supports no CS paper was conducted.
-- `PAPER_LISTED_SOURCE_UNVERIFIED`: index/listing found, original PDF not yet checked.
-- `ORIGINAL_PDF_VERIFIED`: original paper inspected and identified.
-- `EXTRACTED_PENDING_REVIEW`: machine extraction exists but has not been checked.
-- `QUESTION_TEXT_VERIFIED`: question text checked against source PDF.
-- `OFFICIAL_KEY_VERIFIED`: answer checked against official key.
-- `INDEPENDENT_SOLUTION_CHECKED`: solution independently worked and reviewed.
+## Completed
+- [x] Repository and write access checked.
+- [x] README and research method created.
+- [x] SQLite schema and subject taxonomy created.
+- [x] Year inventory initialized conservatively.
+- [x] Official pages for 2023, 2025 and 2026 inspected.
+- [x] Historical discovery indexes inspected.
 
-Do not treat a year as missing merely because the first search did not find it.
+## Pending
+- [ ] Extract direct official PDF/key links from every archive.
+- [ ] Enumerate every CS year/session/set.
+- [ ] Inspect historical original PDFs (especially 1987–2006 leads).
+- [ ] Establish earliest actual CS-paper year with evidence.
+- [ ] Resolve legacy CS vs IT labels.
+- [ ] Download permitted originals and record SHA-256/page counts.
+- [ ] Extract questions and check against PDF pages.
+- [ ] Verify official key versions and solutions.
+- [ ] Map historical syllabus versions.
+- [ ] Populate SQLite and produce matching CSV/JSONL exports.
+- [ ] Run provenance, integrity, duplicate and completeness tests.
+
+## Status vocabulary
+- NOT_ESTABLISHED
+- PAPER_CONDUCTED_EVIDENCE_FOUND
+- PAPER_NOT_CONDUCTED_EVIDENCE_FOUND
+- PAPER_LISTED_SOURCE_UNVERIFIED
+- ORIGINAL_PDF_VERIFIED
+- EXTRACTED_PENDING_REVIEW
+- QUESTION_TEXT_VERIFIED
+- OFFICIAL_KEY_VERIFIED
+- INDEPENDENT_SOLUTION_CHECKED
+
+No year/session or question count is claimed complete without evidence.
