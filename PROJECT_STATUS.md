@@ -19,15 +19,22 @@
 - GATE 2027 official pages state that syllabi have been revised and include RA in the two-paper combinations.
 - Direct PDF text inspection now covers GATE 2025 CS-1/CS-2 papers and both official keys, plus GATE 2026 CS-1/CS-2 papers and both official keys. Each 2025 and 2026 answer-key PDF has 65 question rows. Local PDF download, SHA-256 manifest and question-level extraction remain pending.
 
+## Pilot batch update (2026 CS-1)
+- [x] Retrieved the complete official 2026 CS-1 question-paper PDF through the PDF text parser (46 pages); text extraction is available for review, but visual questions/figures need page-image review.
+- [x] Retrieved the complete official 2026 CS-1 answer-key PDF (2 pages).
+- [x] Added all 65 official answer-key rows to `research/pilot-verified-keys/2026-CS1-answer-key.csv` (Q1–Q65, question type, section, key/range, marks, source URL).
+- [ ] Match all 65 question statements to the key and review PDF extraction errors/figures.
+- [ ] Write and independently check detailed solutions and subject/topic tags.
+
 ## Progress tracker
 | Work item | Status |
 |---|---|
 | Years researched | 0 full year inventories complete; official archive pages inspected for 2023–2026 and historical archive coverage leads recorded |
 | Paper codes discovered | 30 official 2026 codes + RA listed for 2027 + IT historical lead (unverified) |
 | Papers discovered | 4 CS session papers and 4 matching keys directly inspected; all-code inventory partial |
-| Papers downloaded and hashed | 0 local files confirmed; web PDF content inspected; local hash manifest pending |
-| Questions extracted | 0 verified batches; extraction tooling scaffolded |
-| Questions verified | 0 question-text verification batches |
+| Papers downloaded and hashed | 0 local files confirmed; 2026 CS-1 PDF parsed remotely; local hash manifest pending |
+| Questions extracted | 0 fully verified question-text batches; 2026 CS-1 PDF text parsed for pilot review |
+| Questions verified | 65 official CS-1 answer-key rows transcribed; question-text-to-key matching pending |
 | Solutions completed | 0 |
 | Missing papers documented | Preliminary only |
 | Errors remaining | Not yet measured |
