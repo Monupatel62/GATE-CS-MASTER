@@ -60,3 +60,25 @@ This is a findings-and-leads report, not a claim that the question corpus is com
 - Whether 1991–2006 index entries represent every paper/session.
 - Total historical paper/session/question counts.
 - Complete historical syllabus versions and effective years.
+
+## Direct CS/IT pilot PDF inspection (2025–2026)
+
+The following official PDFs were opened and their PDF text/page metadata inspected:
+- 2025 CS-1 master paper: 64 pages; the document identifies CS1 and IIT Roorkee as organising institute.
+- 2025 CS-2 master paper: 48 pages; the document identifies CS2 and IIT Roorkee as organising institute.
+- 2025 CS-1 and CS-2 official answer keys: 2 pages each; both contain question rows numbered Q1–Q65, with session, type, section, key/range and marks.
+- 2026 CS-1 master paper: 46 pages.
+- 2026 CS-2 master paper: 42 pages.
+- 2026 CS-1 and CS-2 official answer keys: 2 pages each; both contain Q1–Q65 rows.
+
+These are PDF content inspections through the source viewer, not local file downloads. Local SHA-256, extraction candidates and question-by-question visual verification have not yet been completed. The question rows in the answer keys are not proof that all 65 question texts have been extracted or checked.
+
+Direct official URLs:
+- 2025 CS-1: https://gate2026.iitg.ac.in/doc/download/2025/CS12025.pdf
+- 2025 CS-2: https://gate2026.iitg.ac.in/doc/download/2025/CS22025.pdf
+- 2025 CS-1 key: https://gate2026.iitg.ac.in/doc/download/2025_Key/CS1_Keys.pdf
+- 2025 CS-2 key: https://gate2026.iitg.ac.in/doc/download/2025_Key/CS2_Keys.pdf
+- 2026 CS-1: https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS1.pdf
+- 2026 CS-2: https://gate2026.iitg.ac.in/doc/download/2026/QPs/CS2.pdf
+- 2026 CS-1 key: https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf
+- 2026 CS-2 key: https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS2_Keys.pdf
