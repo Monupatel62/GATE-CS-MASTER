@@ -43,3 +43,5 @@ year,cs_paper_status,session_count,paper_pdf_status,official_answer_key_status,p
 2024,NOT_ESTABLISHED,,,,,,PENDING,Do not infer conducted/not-conducted until historical evidence reviewed
 2025,NOT_ESTABLISHED,,,,,,PENDING,Do not infer conducted/not-conducted until historical evidence reviewed
 2026,NOT_ESTABLISHED,,,,,,PENDING,Do not infer conducted/not-conducted until historical evidence reviewed
+2025,2 sessions,2,FOUND,FOUND,SRC-013;SRC-015,third-party indexes and official archive,PDF_LEVEL_REVIEWED,CS-1 and CS-2 direct official PDFs found; CS-2 key direct URL pending addition
+2026,2 sessions,2,FOUND,FOUND,SRC-009;SRC-011,SRC-008,PDF_LEVEL_REVIEWED,CS-1 and CS-2 direct official PDFs and keys found
