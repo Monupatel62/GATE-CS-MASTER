@@ -1,0 +1,7 @@
+source_id,title,url,organization,source_class,coverage_claim,source_authenticity,inspection_status,notes
+SRC-001,GATE 2026 official downloads,https://gate2026.iitg.ac.in/download.html,IIT Guwahati,official,Recent papers and bulk previous papers,official-domain,listed-not-inspected,Inspect exact CS files and answer keys; page-level coverage does not prove every session is present
+SRC-002,GATE 2024 official downloads,https://gate2024.iisc.ac.in/download/,IISc Bengaluru,official,Official bulk paper archive,official-domain,listed-not-inspected,Enumerate CS files and compare with year-wise archives
+SRC-003,GATE 2023 official download information,https://gate.iitk.ac.in/GATE2023/download_info.html,IIT Kanpur,official,Previous-year paper archive,official-domain,listed-not-inspected,Confirm each CS paper file and key individually
+SRC-004,NPTEL GATE question paper mapping,https://gate.nptel.ac.in/gatequestionpaper.html,NPTEL,institutional,Paper/session mapping page,institutional-domain,lead-only,Use to discover CS sessions; not a substitute for original paper verification
+SRC-005,ExamGOAL GATE CS archive,https://examgoal.com,ExamGOAL,third-party,Historical CS archive lead,third-party,lead-only,Discovery only; inspect original PDFs and cross-check with primary sources
+SRC-006,GATE Overflow,https://gateoverflow.in,GATE Overflow,community,Discussion and answer-verification lead,community,lead-only,Community explanations are not official answer keys
