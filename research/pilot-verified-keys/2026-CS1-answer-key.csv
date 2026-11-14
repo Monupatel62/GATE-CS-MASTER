@@ -1,0 +1,66 @@
+year,paper_code,session,question_no,question_type,section,official_key_or_range,marks,source_url,verification_status
+2026,CS-1,3,1,MCQ,GA,"B",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,2,MCQ,GA,"C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,3,MCQ,GA,"C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,4,MCQ,GA,"D",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,5,MCQ,GA,"C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,6,MCQ,GA,"B",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,7,MCQ,GA,"D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,8,MCQ,GA,"A",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,9,MCQ,GA,"A",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,10,MCQ,GA,"C",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,11,MCQ,CS-1,"B",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,12,MCQ,CS-1,"A",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,13,MCQ,CS-1,"A",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,14,MCQ,CS-1,"B",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,15,MCQ,CS-1,"D",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,16,MCQ,CS-1,"B",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,17,MCQ,CS-1,"A",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,18,MCQ,CS-1,"D",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,19,MSQ,CS-1,"A;C;D",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,20,MSQ,CS-1,"B;D",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,21,MSQ,CS-1,"A;C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,22,MSQ,CS-1,"B;C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,23,MSQ,CS-1,"B;C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,24,MSQ,CS-1,"C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,25,MSQ,CS-1,"A;B;C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,26,MSQ,CS-1,"B;D",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,27,MSQ,CS-1,"C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,28,MSQ,CS-1,"C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,29,MSQ,CS-1,"A;C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,30,MSQ,CS-1,"C;D",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,31,MSQ,CS-1,"A;B;C",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,32,NAT,CS-1,"3 to 3",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,33,NAT,CS-1,"11 to 11",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,34,NAT,CS-1,"9 to 9",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,35,NAT,CS-1,"6 to 6",1,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,36,MCQ,CS-1,"C",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,37,MCQ,CS-1,"B",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,38,MCQ,CS-1,"A",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,39,MCQ,CS-1,"B",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,40,MCQ,CS-1,"D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,41,MCQ,CS-1,"A",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,42,MCQ,CS-1,"D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,43,MCQ,CS-1,"B",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,44,MCQ,CS-1,"B",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,45,MCQ,CS-1,"B",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,46,MSQ,CS-1,"A;C;D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,47,MSQ,CS-1,"A",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,48,MSQ,CS-1,"B;D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,49,MSQ,CS-1,"A;D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,50,MSQ,CS-1,"B;D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,51,MSQ,CS-1,"C",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,52,MSQ,CS-1,"B;D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,53,MSQ,CS-1,"A;B;D",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,54,MSQ,CS-1,"B;C",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,55,MSQ,CS-1,"B;C",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,56,MSQ,CS-1,"A;B;C",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,57,NAT,CS-1,"34 to 34",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,58,NAT,CS-1,"4.24 to 4.26",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,59,NAT,CS-1,"77.3 to 77.3",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,60,NAT,CS-1,"95 to 95",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,61,NAT,CS-1,"65536 to 65536",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,62,NAT,CS-1,"7 to 7",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,63,NAT,CS-1,"4 to 4",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,64,NAT,CS-1,"9.5 to 9.5",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
+2026,CS-1,3,65,NAT,CS-1,"6 to 6",2,https://gate2026.iitg.ac.in/doc/download/2026/Keys/CS1_Keys.pdf,KEY_VERIFIED
